@@ -10,10 +10,15 @@ sharing among multiple devices.
 
 https://github.com/vpejovic/MachineLearningToolkit/
 
+To use Machine Learning Toolkit in your Android project, simply put:
+
+compile 'si.uni_lj.fri.lrss.machinelearningtoolkit:mltoolkit:1.2'
+
+in your app's build.gradle file
+
 
 Copyright (c) 2013, University of Birmingham, UK
 Veljko Pejovic,  <v.pejovic@cs.bham.ac.uk>
-
 
 This library was developed as part of the EPSRC Ubhave (Ubiquitous and Social
 Computing for Positive Behaviour Change) Project. For more information, please visit

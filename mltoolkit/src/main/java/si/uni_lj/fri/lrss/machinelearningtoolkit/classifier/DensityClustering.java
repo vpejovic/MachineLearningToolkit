@@ -127,7 +127,7 @@ public class DensityClustering extends Classifier {
 		if (config.containsParam(Constants.MAX_CLUSTER_DISTANCE)) {
 			mMaxDistance = (Double) config.getParam(Constants.MAX_CLUSTER_DISTANCE);
 		} else {
-			mMaxDistance = Constants.DEFAULT_MAX_CLUSTER_DISTANCE;
+            mMaxDistance = Constants.DEFAULT_MAX_CLUSTER_DISTANCE;
 		}
 		if (config.containsParam(Constants.MIN_INCLUSION_PERCENT)) {
 			mMinInclusionPct = (Double) config.getParam(Constants.MIN_INCLUSION_PERCENT);
