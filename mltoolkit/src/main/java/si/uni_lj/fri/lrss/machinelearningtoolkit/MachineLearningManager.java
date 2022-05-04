@@ -264,7 +264,7 @@ public class MachineLearningManager {
             Classifier result = null;
 
             JsonObject object = elem.getAsJsonObject();
-            int intType = object.get("type").getAsInt();
+            int intType = object.get("mType").getAsInt();
             switch(intType){
                 case Constants.TYPE_NAIVE_BAYES:
                     result = gson.fromJson(elem, NaiveBayes.class);
